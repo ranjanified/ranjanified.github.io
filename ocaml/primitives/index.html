@@ -1,0 +1,373 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>OCaml Primitives Rockbed</h1>
+
+    <div id="primitive-raise" class="primitive-container">
+      <span>raise</span>
+    </div>
+    
+    <div id="primitive-raise-notrace" class="primitive-container">
+      <span>raise_notrace</span>
+    </div>
+    
+    <div id="primitive-structural-equality" class="primitive-container">
+      <span>=</span>
+    </div>
+    
+    <div id="primitive-notequal" class="primitive-container">
+      <span>&lt;&gt;</span>
+    </div>
+    
+    <div id="primitive-lessthan" class="primitive-container">
+      <span>&lt;</span>
+    </div>
+    
+    <div id="primitive-greaterthan" class="primitive-container">
+      <span>&gt;</span>
+    </div>
+    
+    <div id="primitive-lessequal" class="primitive-container">
+      <span>&lt;=</span>
+    </div>
+    
+    <div id="primitive-greaterequal" class="primitive-container">
+      <span>&gt;=</span>
+    </div>
+    
+    <div id="primitive-compare" class="primitive-container">
+      <span>compare</span>
+    </div>
+    
+    <div id="primitive-physical-equality" class="primitive-container">
+      <span>==</span>
+    </div>
+    
+    <div id="primitive-negation-of" class="primitive-container">
+      <span>!=</span>
+    </div>
+    
+    <div id="primitive-not" class="primitive-container">
+      <span>not</span>
+    </div>
+    
+    <div id="primitive-boolean-and" class="primitive-container">
+      <span>&&</span>
+    </div>
+    
+    <div id="primitive-boolean-or" class="primitive-container">
+      <span>||</span>
+    </div>
+    
+    <div id="primitive-loc" class="primitive-container">
+      <span>__LOC__</span>
+    </div>
+    
+    <div id="primitive-file" class="primitive-container">
+      <span>__FILE__</span>
+    </div>
+    
+    <div id="primitive-line" class="primitive-container">
+      <span>__LINE__</span>
+    </div>
+    
+    <div id="primitive-module" class="primitive-container">
+      <span>__MODULE__</span>
+    </div>
+    
+    <div id="primitive-pos" class="primitive-container">
+      <span>__POS__</span>
+    </div>
+    
+    <div id="primitive-function" class="primitive-container">
+      <span>__FUNCTION__</span>
+    </div>
+    
+    <div id="primitive-loc-of" class="primitive-container">
+      <span>__LOC_OF__</span>
+    </div>
+    
+    <div id="primitive-line-of" class="primitive-container">
+      <span>__LINE_OF__</span>
+    </div>
+    
+    <div id="primitive-pos-of" class="primitive-container">
+      <span>__POS_OF__</span>
+    </div>
+    
+    <div id="primitive-reverse-application-operator" class="primitive-container">
+      <span>|></span>
+    </div>
+    
+    <div id="primitive-application-operator" class="primitive-container">
+      <span>@@</span>
+    </div>
+    
+    <div id="primitive-unary-negation" class="primitive-container">
+      <span>~-</span>
+    </div>
+    
+    <div id="primitive-unary-addition" class="primitive-container">
+      <span>~+</span>
+    </div>
+    
+    <div id="primitive-succ" class="primitive-container">
+      <span>succ</span>
+    </div>
+    
+    <div id="primitive-pred" class="primitive-container">
+      <span>pred</span>
+    </div>
+    
+    <div id="primitive-integer-addition" class="primitive-container">
+      <span>+</span>
+    </div>
+    
+    <div id="primitive-integer-subtraction" class="primitive-container">
+      <span>-</span>
+    </div>
+    
+    <div id="primitive-integer-multiplication" class="primitive-container">
+      <span>*</span>
+    </div>
+    
+    <div id="primitive-integer-division" class="primitive-container">
+      <span>/</span>
+    </div>
+    
+    <div id="primitive-land" class="primitive-container">
+      <span>land</span>
+    </div>
+    
+    <div id="primitive-lor" class="primitive-container">
+      <span>lor</span>
+    </div>
+    
+    <div id="primitive-lxor" class="primitive-container">
+      <span>lxor</span>
+    </div>
+    
+    <div id="primitive-lsl" class="primitive-container">
+      <span>lsl</span>
+    </div>
+    
+    <div id="primitive-lsr" class="primitive-container">
+      <span>lsr</span>
+    </div>
+    
+    <div id="primitive-asr" class="primitive-container">
+      <span>asr</span>
+    </div>
+    
+    <div id="primitive-unary-negation" class="primitive-container">
+      <span>~-.</span>
+    </div>
+    
+    <div id="primitive-unary-float-addition" class="primitive-container">
+      <span>~+.</span>
+    </div>
+    
+    <div id="primitive-float-addition" class="primitive-container">
+      <span>+.</span>
+    </div>
+    
+    <div id="primitive-float-subtraction" class="primitive-container">
+      <span>-.</span>
+    </div>
+    
+    <div id="primitive-float-multiply" class="primitive-container">
+      <span>*.</span>
+    </div>
+    
+    <div id="primitive-float-division" class="primitive-container">
+      <span>/.</span>
+    </div>
+    
+    <div id="primitive-exponentiation" class="primitive-container">
+      <span>**</span>
+    </div>
+    
+    <div id="primitive-sqrt" class="primitive-container">
+      <span>sqrt</span>
+    </div>
+    
+    <div id="primitive-exp" class="primitive-container">
+      <span>exp</span>
+    </div>
+    
+    <div id="primitive-log" class="primitive-container">
+      <span>log</span>
+    </div>
+    
+    <div id="primitive-log10" class="primitive-container">
+      <span>log10</span>
+    </div>
+    
+    <div id="primitive-expm1" class="primitive-container">
+      <span>expm1</span>
+    </div>
+    
+    <div id="primitive-log1p" class="primitive-container">
+      <span>log1p</span>
+    </div>
+    
+    <div id="primitive-cos" class="primitive-container">
+      <span>cos</span>
+    </div>
+    
+    <div id="primitive-sin" class="primitive-container">
+      <span>sin</span>
+    </div>
+    
+    <div id="primitive-tan" class="primitive-container">
+      <span>tan</span>
+    </div>
+    
+    <div id="primitive-acos" class="primitive-container">
+      <span>acos</span>
+    </div>
+    
+    <div id="primitive-asin" class="primitive-container">
+      <span>asin</span>
+    </div>
+    
+    <div id="primitive-atan" class="primitive-container">
+      <span>atan</span>
+    </div>
+    
+    <div id="primitive-atan2" class="primitive-container">
+      <span>atan2</span>
+    </div>
+    
+    <div id="primitive-hypot" class="primitive-container">
+      <span>hypot</span>
+    </div>
+    
+    <div id="primitive-cosh" class="primitive-container">
+      <span>cosh</span>
+    </div>
+    
+    <div id="primitive-sinh" class="primitive-container">
+      <span>sinh</span>
+    </div>
+    
+    <div id="primitive-tanh" class="primitive-container">
+      <span>tanh</span>
+    </div>
+    
+    <div id="primitive-acosh" class="primitive-container">
+      <span>acosh</span>
+    </div>
+    
+    <div id="primitive-asinh" class="primitive-container">
+      <span>asinh</span>
+    </div>
+    
+    <div id="primitive-atanh" class="primitive-container">
+      <span>atanh</span>
+    </div>
+    
+    <div id="primitive-ceil" class="primitive-container">
+      <span>ceil</span>
+    </div>
+    
+    <div id="primitive-floor" class="primitive-container">
+      <span>floor</span>
+    </div>
+    
+    <div id="primitive-abs-float" class="primitive-container">
+      <span>abs_float</span>
+    </div>
+    
+    <div id="primitive-copysign" class="primitive-container">
+      <span>copysign</span>
+    </div>
+    
+    <div id="primitive-mod-float" class="primitive-container">
+      <span>mod_float</span>
+    </div>
+    
+    <div id="primitive-frexp" class="primitive-container">
+      <span>frexp</span>
+    </div>
+    
+    <div id="primitive-ldexp" class="primitive-container">
+      <span>ldexp</span>
+    </div>
+    
+    <div id="primitive-modf" class="primitive-container">
+      <span>modf</span>
+    </div>
+    
+    <div id="primitive-float" class="primitive-container">
+      <span>float</span>
+    </div>
+    
+    <div id="primitive-float-of-int" class="primitive-container">
+      <span>float_of_int</span>
+    </div>
+    
+    <div id="primitive-truncate" class="primitive-container">
+      <span>truncate</span>
+    </div>
+    
+    <div id="primitive-int-of-float" class="primitive-container">
+      <span>int_of_float</span>
+    </div>
+    
+    <div id="primitive-classify-float" class="primitive-container">
+      <span>classify_float</span>
+    </div>
+    
+    <div id="primitive-int-of-char" class="primitive-container">
+      <span>int_of_char</span>
+    </div>
+    
+    <div id="primitive-ignore" class="primitive-container">
+      <span>ignore</span>
+    </div>
+    
+    <div id="primitive-int-of-string" class="primitive-container">
+      <span>int_of_string</span>
+    </div>
+    
+    <div id="primitive-float-of-string" class="primitive-container">
+      <span>float_of_string</span>
+    </div>
+    
+    <div id="primitive-fst" class="primitive-container">
+      <span>fst</span>
+    </div>
+    
+    <div id="primitive-snd" class="primitive-container">
+      <span>snd</span>
+    </div>
+    
+    <div id="primitive-ref" class="primitive-container">
+      <span>ref</span>
+    </div>
+    
+    <div id="primitive-get-reference" class="primitive-container">
+      <span>!</span>
+    </div>
+    
+    <div id="primitive-set-reference" class="primitive-container">
+      <span>:=</span>
+    </div>
+    
+    <div id="primitive-incr" class="primitive-container">
+      <span>incr</span>
+    </div>
+    
+    <div id="primitive-decr" class="primitive-container">
+      <span>decr</span>
+    </div>
+    
+    <div id="primitive-format-of-string" class="primitive-container">
+      <span>format_of_string</span>
+    </div>
+    
+  </body>
+</html>

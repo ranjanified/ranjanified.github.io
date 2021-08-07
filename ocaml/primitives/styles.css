@@ -1,0 +1,12 @@
+.primitive-container {
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    min-width: 50px;
+}
