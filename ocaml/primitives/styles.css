@@ -1,3 +1,7 @@
+.heading {
+    text-align: center;
+}
+
 .primitive-container {
     border-width: 5px;
     border-radius: 5px;
