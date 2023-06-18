@@ -1,15 +1,17 @@
-<div class="circular-progress">
-  
+<div class="circular-progress-container">
+  <div class="circular-progress"></div>  
 </div>
 
 <style lang="scss">
  .circular-progress {
    padding: 20px;
    border-width: 8px;
-   border-color: red green yellow blue;
+   border-color: var(--circular-progress-color-1, red) var(--circular-progress-color-2, green) var(--circular-progress-color-3, yellow) var(--circular-progress-color-4, blue);
    border-style: solid;
    border-radius: 50%;
    display: inline-block;
+   position: absolute;
+   top: 50%;
 
    -webkit-animation:spin 4s linear infinite;
    -moz-animation:spin 4s linear infinite;
@@ -28,4 +30,11 @@
 		   transform:rotate(360deg); 
 		 } 
 		 }
+
+ .circular-progress-container {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   text-align: center;
+ }
 </style>
