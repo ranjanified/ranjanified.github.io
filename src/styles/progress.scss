@@ -1,13 +1,13 @@
 
 .circular-progress {
     padding: 20px;
-
     border-width: 8px;
     border-color: red green yellow blue;
     border-style: solid;
     border-radius: 50%;
-
     display: inline-block;
+    position: absolute;
+    top: 50%;
     
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
@@ -25,4 +25,16 @@
 	-webkit-transform: rotate(360deg); 
 	transform:rotate(360deg); 
     } 
+}
+
+.circular-progress-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.with-circular-progress {
+    min-height: 100vh;
+    position: relative;
 }
