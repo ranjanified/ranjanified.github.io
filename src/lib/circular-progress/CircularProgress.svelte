@@ -1,0 +1,31 @@
+<div class="circular-progress">
+  
+</div>
+
+<style lang="scss">
+ .circular-progress {
+   padding: 20px;
+   border-width: 8px;
+   border-color: red green yellow blue;
+   border-style: solid;
+   border-radius: 50%;
+   display: inline-block;
+
+   -webkit-animation:spin 4s linear infinite;
+   -moz-animation:spin 4s linear infinite;
+   animation:spin 4s linear infinite;
+ }
+
+ @-moz-keyframes spin { 
+		      100% { -moz-transform: rotate(360deg); } 
+		      }
+ @-webkit-keyframes spin { 
+			 100% { -webkit-transform: rotate(360deg); } 
+			 }
+ @keyframes spin { 
+		 100% { 
+		   -webkit-transform: rotate(360deg); 
+		   transform:rotate(360deg); 
+		 } 
+		 }
+</style>
