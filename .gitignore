@@ -41,7 +41,6 @@ tramp
 
 # cask packages
 .cask/
-dist/
 
 # Flycheck
 flycheck_*.el
@@ -107,3 +106,6 @@ _esy/
 /lib
 
 # End of https://www.toptal.com/developers/gitignore/api/reasonml
+
+node_modules/
+dist/index.html
