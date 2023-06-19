@@ -1,0 +1,21 @@
+{
+    "manifest": {},
+    "assets": {
+        "path_prefix": "dist",
+        "entries": [
+            {
+                "name": "src/bootstrapper.css",
+                "type": "css",
+                "target": "head"
+            },
+            {
+                "name": "css-inline-demo",
+                "skip_manifest": true,
+                "inline": true,
+                "inline_text": ".a-demo { color: red }",
+                "type": "css",
+                "target": "head"
+            }
+        ]
+    }
+}

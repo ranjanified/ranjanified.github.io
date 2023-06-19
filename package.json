@@ -15,7 +15,7 @@
   "homepage": "https://github.com/ranjanified/ranjanified.github.io#readme",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --config ./vite.config.dev.ts",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
@@ -38,6 +38,7 @@
     "@smui/ripple": "7.0.0-beta.8",
     "@smui/switch": "7.0.0-beta.8",
     "@sveltejs/vite-plugin-svelte": "^2.4.1",
+    "@teambit/bvm": "^0.4.2",
     "@tsconfig/svelte": "^4.0.1",
     "chart.js": "^4.3.0",
     "glob": "^10.2.7",

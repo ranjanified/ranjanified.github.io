@@ -25,64 +25,79 @@
       href="https://fonts.googleapis.com/css?family=Tiro+Devanagari+Hindi"
     />
     <style type="text/css">
-     .circular-progress {
-       padding: 20px;
-       border-width: 8px;
-       border-color: var(--circular-progress-color-1, red) var(--circular-progress-color-2, green) var(--circular-progress-color-3, yellow) var(--circular-progress-color-4, blue);
-       border-style: solid;
-       border-radius: 50%;
-       display: inline-block;
-       position: absolute;
-       top: 50%;
+      .circular-progress {
+        padding: 20px;
+        border-width: 8px;
+        border-color: var(--circular-progress-color-1, red)
+          var(--circular-progress-color-2, green)
+          var(--circular-progress-color-3, yellow)
+          var(--circular-progress-color-4, blue);
+        border-style: solid;
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
 
-       -webkit-animation:spin 4s linear infinite;
-       -moz-animation:spin 4s linear infinite;
-       animation:spin 4s linear infinite;
-     }
+        -webkit-animation: spin 4s linear infinite;
+        -moz-animation: spin 4s linear infinite;
+        animation: spin 4s linear infinite;
+      }
 
-     @-moz-keyframes spin { 
-       100% { -moz-transform: rotate(360deg); } 
-     }
-     @-webkit-keyframes spin { 
-       100% { -webkit-transform: rotate(360deg); } 
-     }
-     @keyframes spin { 
-       100% { 
-	 -webkit-transform: rotate(360deg); 
-	 transform:rotate(360deg); 
-       } 
-     }
+      @-moz-keyframes spin {
+        100% {
+          -moz-transform: rotate(360deg);
+        }
+      }
+      @-webkit-keyframes spin {
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes spin {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
 
-     .circular-progress-container {
-       height: 100%;
-       width: 100%;
-       position: absolute;
-       text-align: center;
-     }
+      .circular-progress-container {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+      }
 
-     .with-circular-progress {
-       min-height: 100vh;
-       position: relative;
-     }
+      .with-circular-progress {
+        min-height: 100vh;
+        position: relative;
+      }
     </style>
     <script type="text/javascript">
-     function handle_app_loaded() {
-       removeEventListener("ranjanified:app:loaded", handle_app_loaded);
+      function handle_app_loaded() {
+        removeEventListener("ranjanified:app:loaded", handle_app_loaded);
 
-       document.body.classList.remove("with-circular-progress");
+        document.body.classList.remove("with-circular-progress");
 
-       const circular_progress_element = document.body.querySelector(".circular-progress-container");
-       if(circular_progress_element) {
-	 circular_progress_element.remove();
-       }
-     }
+        const circular_progress_element = document.body.querySelector(
+          ".circular-progress-container"
+        );
+        if (circular_progress_element) {
+          circular_progress_element.remove();
+        }
+      }
 
-     addEventListener("ranjanified:app:loaded", handle_app_loaded);
+      addEventListener("ranjanified:app:loaded", handle_app_loaded);
     </script>
   </head>
   <body class="with-circular-progress">
-    <script type="module" src="/main.ts"></script>
-    <div class="circular-progress-container">      
+    <script type="module">
+      import { create_app } from "/main.ts";
+      create_app();
+
+      // import { bootstrap } from "/bootstrapper.ts";
+      // bootstrap();
+    </script>
+    <div class="circular-progress-container">
       <div class="circular-progress"></div>
     </div>
   </body>
