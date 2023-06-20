@@ -1,7 +1,7 @@
 {
     "manifest": {},
     "assets": {
-        "path_prefix": "dist",
+        "path_prefix": "websites/ranjanified-portal",
         "entries": [
             {
                 "name": "src/bootstrapper.css",
