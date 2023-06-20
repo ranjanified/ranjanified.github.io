@@ -11,6 +11,7 @@ export default defineConfig({
   build: {
     manifest: true,
     emptyOutDir: true,
+    outDir: "../../websites/ranjanified-portal",
     rollupOptions: {
       preserveEntrySignatures: "strict",
       input: {
