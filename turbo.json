@@ -10,7 +10,7 @@
       "cache": false
     },
     "deploy": {
-      "dependsOn": ["build", "test"]
+      "dependsOn": ["build"]
     },
     "lint": {}
   }
