@@ -15,10 +15,13 @@
   "homepage": "https://github.com/ranjanified/ranjanified.github.io#readme",
   "type": "module",
   "scripts": {
-    "dev": "vite --config ./vite.config.dev.ts",
-    "build": "vite build",
+    "dev": "vite",
+    "build": "pnpm vite:build && pnpm copy:index",
     "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "deploy": "git push origin master",
+    "vite:build": "vite build",
+    "copy:index": "copyfiles -u 4 ../../web-assets/ranjanified-portal/index.html ../../"
   },
   "devDependencies": {
     "@material/elevation": "^14.0.0",

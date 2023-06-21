@@ -1,13 +1,14 @@
 export type AssetConfig = {
     readonly path_prefix?: string;
-    readonly entries?: Array<AssetEntry>;
+    readonly head?: Array<AssetEntry>;
+    readonly body?: Array<AssetEntry>;
 }
 
+export type AssetLinkHost = 'head' | 'body';
 export type AssetType = 'js' | 'css' | 'svg' | 'img' | 'meta';
-export type AssetInclusionTarget = 'head' | 'body';
 
 export type AssetEntry = {
-    readonly target?: AssetInclusionTarget;
+    // readonly target?: AssetLinkHost;
     readonly type: AssetType;
     readonly name: string;
     readonly inline?: boolean;

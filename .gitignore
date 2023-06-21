@@ -108,7 +108,7 @@ _esy/
 # End of https://www.toptal.com/developers/gitignore/api/reasonml
 
 node_modules/
-dist/index.html
+web-assets/ranjanified-portal/index.html
 
 # turbo repo
 .turbo

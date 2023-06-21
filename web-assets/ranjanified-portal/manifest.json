@@ -1,0 +1,26 @@
+{
+  "assets/images/icons/favicon.ico": {
+    "file": "assets/favicon-2b8ad2d3.ico",
+    "src": "assets/images/icons/favicon.ico"
+  },
+  "index.html": {
+    "file": "assets/app-8f7a31dd.js",
+    "imports": [
+      "src/bootstrapper.ts"
+    ],
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/bootstrapper.css": {
+    "file": "assets/bootstrapper-79b17667.css",
+    "src": "src/bootstrapper.css"
+  },
+  "src/bootstrapper.ts": {
+    "css": [
+      "assets/bootstrapper-79b17667.css"
+    ],
+    "file": "assets/bootstrapper-14cee31a.js",
+    "isEntry": true,
+    "src": "src/bootstrapper.ts"
+  }
+}

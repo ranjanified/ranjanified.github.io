@@ -6,9 +6,11 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "deploy": "turbo run deploy",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "eslint-config-custom": "workspace:*",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.1",

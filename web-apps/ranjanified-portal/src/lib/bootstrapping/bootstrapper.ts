@@ -1,7 +1,7 @@
 import { create_app } from "../../main";
 import { load_config } from "$lib/config/app/loader";
-import { load_assets } from "$lib/config/assets/assets-loader";
 import { load_manifest } from "$lib/config/manifest/loader";
+import { load_assets } from "$lib/config/assets/assets-loader";
 import { BootstrappingOptions } from "$lib/bootstrapping/model";
 
 const bootstrap = async (options: BootstrappingOptions) => {
@@ -27,7 +27,8 @@ const bootstrap = async (options: BootstrappingOptions) => {
     new CustomEvent("ranjanified:app:config", { detail: app_config })
   );
 
-  load_assets({ ...app_config, manifest: merged_manifest });
+  load_assets([...app_config.document?.assets?.head ?? []], ({ ...app_config, manifest: merged_manifest }).manifest, app_config.document?.assets?.path_prefix ?? "", "head");
+  load_assets([...app_config.document?.assets?.body ?? []], ({ ...app_config, manifest: merged_manifest }).manifest, app_config.document?.assets?.path_prefix ?? "", "body");
 
   create_app(options?.target_selector ?? "");
 };
