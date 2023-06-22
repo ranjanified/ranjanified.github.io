@@ -7,13 +7,20 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "deploy": "turbo run deploy",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dev:android": "turbo run dev:android --parallel",
+    "debug:android": "turbo run debug:android --parallel",
+    "dev:ios": "turbo run dev:ios",
+    "debug:ios": "turbo run debug:ios"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
     "eslint-config-custom": "workspace:*",
+    "nativescript": "8.5.3",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.1",
-    "turbo": "^1.10.3"
+    "svelte": "^3.59.1",
+    "turbo": "^1.10.3",
+    "typescript": "^5.1.3"
   }
 }

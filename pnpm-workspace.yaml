@@ -1,3 +1,4 @@
 packages:
   - "components/*"
   - "web-apps/*"
+  - "native-apps/*"

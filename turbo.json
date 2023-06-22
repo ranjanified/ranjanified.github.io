@@ -12,6 +12,22 @@
     "deploy": {
       "dependsOn": ["build"]
     },
+    "dev:android": {
+      "cache": false,
+      "persistent": true
+    },
+    "debug:android": {
+      "cache": false,
+      "persistent": true
+    },
+    "dev:ios": {
+      "cache": false,
+      "persistent": true
+    },
+    "debug:ios": {
+      "cache": false,
+      "persistent": true
+    },
     "lint": {}
   }
 }
