@@ -21,7 +21,7 @@
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "deploy": "git push origin master",
     "vite:build": "vite build",
-    "copy:index": "copyfiles -u 4 ../../web-assets/ranjanified-portal/index.html ../../"
+    "copy:index": "copyfiles -u 4 ../../web-assets/web-portal/index.html ../../"
   },
   "devDependencies": {
     "@material/elevation": "^14.0.0",
