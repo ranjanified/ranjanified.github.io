@@ -2,7 +2,7 @@
   "manifest": {},
   "document": {
     "assets": {
-      "path_prefix": "web-assets/ranjanified-portal",
+      "path_prefix": "web-assets/web-portal",
       "head": [
         {
           "name": "src/bootstrapper.css",
