@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "clean": "ns clean",
     "dev:android": "ns run android",
     "debug:android": "ns debug android",
     "dev:ios": "ns run ios",

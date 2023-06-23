@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "clean": "turbo run clean --parallel",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "deploy": "turbo run deploy",
