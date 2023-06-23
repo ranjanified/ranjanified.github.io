@@ -24,11 +24,11 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       svelte:
-        specifier: ^3.59.1
-        version: 3.59.1
+        specifier: ^4.0.0
+        version: 4.0.0
       turbo:
-        specifier: ^1.10.3
-        version: 1.10.3
+        specifier: ^1.10.4
+        version: 1.10.4
       typescript:
         specifier: ^5.1.3
         version: 5.1.3
@@ -54,14 +54,14 @@ importers:
   native-apps/native-portal:
     dependencies:
       '@nativescript/core':
-        specifier: ~8.5.0
-        version: 8.5.0
+        specifier: ~8.5.6
+        version: 8.5.6
       '@nativescript/theme':
         specifier: ~3.0.2
         version: 3.0.2
       svelte-native:
-        specifier: ~1.0.0
-        version: 1.0.0(@nativescript/core@8.5.0)(svelte@3.44.3)
+        specifier: ~1.0.6
+        version: 1.0.6(@nativescript/core@8.5.6)(svelte@3.44.3)
     devDependencies:
       '@nativescript/android':
         specifier: 8.5.0
@@ -81,9 +81,6 @@ importers:
       svelte-preprocess:
         specifier: ^5.0.4
         version: 5.0.4(@babel/core@7.22.5)(postcss@8.4.24)(svelte@3.44.3)(typescript@5.1.3)
-      ts-loader:
-        specifier: ^9.4.3
-        version: 9.4.3(typescript@5.1.3)(webpack@5.88.0)
 
   web-apps/web-portal:
     devDependencies:
@@ -95,49 +92,49 @@ importers:
         version: 14.0.0
       '@smui-extra/accordion':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/button':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/card':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/checkbox':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/chips':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/circular-progress':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/common':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/data-table':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/form-field':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/icon-button':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/linear-progress':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/paper':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/ripple':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@smui/switch':
         specifier: 7.0.0-beta.8
-        version: 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
+        version: 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.1
-        version: 2.4.1(svelte@3.59.1)(vite@4.3.9)
+        version: 2.4.1(svelte@4.0.0-next.3)(vite@4.3.9)
       '@tsconfig/svelte':
         specifier: ^4.0.1
         version: 4.0.1
@@ -155,10 +152,10 @@ importers:
         version: 7.0.0-beta.8
       svelte-chartjs:
         specifier: ^3.1.2
-        version: 3.1.2(chart.js@4.3.0)(svelte@3.59.1)
+        version: 3.1.2(chart.js@4.3.0)(svelte@4.0.0-next.3)
       svelte-check:
         specifier: ^3.4.3
-        version: 3.4.3(sass@1.62.1)(svelte@3.59.1)
+        version: 3.4.3(sass@1.62.1)(svelte@4.0.0-next.3)
       tslib:
         specifier: ^2.5.3
         version: 2.5.3
@@ -1560,8 +1557,8 @@ packages:
     resolution: {integrity: sha512-HktiT5gWXdMxe4j6zoU1Zj2V5uxg67XG3TETOFg7m/PqAgWoti4czAa/VoKnHfk1FJ/zr+LWJTNxts/mGJ7DxA==}
     dev: true
 
-  /@nativescript/core@8.5.0:
-    resolution: {integrity: sha512-CB0wzDbcXuY9/hMKMjm3ywrE5OVr7KRR5YzwYfE/SdpGXaadqKxVh7/ArCOk1juesnc6BcX3O+m8REukZKOSJw==}
+  /@nativescript/core@8.5.6:
+    resolution: {integrity: sha512-WF7DMsGTwtXeqT09CYAl0hxAKWZcNKeV0UBxN/1HwFgwbDOX8NK8c/AXu+fBuzItBjoise0sFz1L3Mccqhdu0g==}
     requiresBuild: true
     dependencies:
       '@nativescript/hook': 2.0.0
@@ -1924,7 +1921,7 @@ packages:
       xcode: 3.0.1
       xml-js: 1.6.11
       xpath: 0.0.32
-      yargs: 17.7.2
+      yargs: 17.3.1
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -1938,7 +1935,7 @@ packages:
     resolution: {integrity: sha512-V+MvGwaHH03hYhY+k6Ef/xKd6RYlc4q8WBx+2ANmipHJcKuktNcI/NgEsJgdSUF6Lw32njT6OnrRsKYCdgHjYw==}
     dev: true
 
-  /@smui-extra/accordion@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui-extra/accordion@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-Kydoz1nSqBdHA5R7VoeUJnwlmDVXuyAd8EnJYfB3rOluN7RrKFlIO6fiVpcD1kzrtTKKSsmVo3BwLcdPU2HNfw==}
     dependencies:
       '@material/animation': 14.0.0
@@ -1947,16 +1944,16 @@ packages:
       '@material/ripple': 14.0.0
       '@material/theme': 14.0.0
       '@material/typography': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/paper': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/paper': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/button@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/button@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-DE/dXV0a0L+LtXZRyhEH1rN6+5XJwG1s1xqa8v4778fCe/Zf8qpHTXsF1Y8xxjbr7NeOdqIYkgFEk3F8Gee1lg==}
     dependencies:
       '@material/button': 14.0.0
@@ -1965,213 +1962,213 @@ packages:
       '@material/ripple': 14.0.0
       '@material/shape': 14.0.0
       '@material/theme': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/card@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/card@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-dcSvlEIV7gaqr4AJuAvRvHeerb90yZgTw3xh/X69Pm6fVt+1kYI9tRm6oMmqS/eY+EbvHU7zYQI9AGR/r9PGnA==}
     dependencies:
       '@material/card': 14.0.0
-      '@smui/button': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/icon-button': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/button': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/icon-button': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/checkbox@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/checkbox@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-ODu1VpH3fgle7AmM1BSNHy3nViwAm4ljDhyM64PYPpyCc19dKUsiKDd5uW4PgG02Pe8RmepyQjysLaTPFO326g==}
     dependencies:
       '@material/checkbox': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/chips@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/chips@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-RpXT7Y9b2ELQoXt3ha5MjImMBUG1JPaekUgyV++AyotkfQ5LEqDTJQJONhsVdbROGi1F1HX3of0DtwNdnLZIhg==}
     dependencies:
       '@material/chips': 14.0.0
       '@material/dom': 14.0.0
       '@material/rtl': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/circular-progress@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/circular-progress@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-oKBilgNqkJalG+nv6L12/3YHGJKz9LsFHhxhNzbv2M0Yen+MQZCf5hVTsRhdRTfhpHJBvqXDqiZ8Ec2Gs5oXRA==}
     dependencies:
       '@material/circular-progress': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/common@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/common@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-IeU7KqE+EcvEm3fkEKuvHY2MkNJm1hpl1sHlnVWFSrS8D1+NypwpuQWnOPDgLYRq/5zhm8ZCDkvX1G1ZiXUC7A==}
     dependencies:
       '@material/dom': 14.0.0
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/common@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/common@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-Wf63UfvaB8hDSzxkoqCUpFiJffQixmyKW+mWVE5ZUQ94Vwg0gZWGbNMEBrwrtI4tHomMQ95VVNdps/KsaXlStw==}
     dependencies:
       '@material/dom': 14.0.0
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/data-table@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/data-table@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-sBmgQccJ4qasqbYIJD6fldu486lGPW38uLDgukjXDOuB9185f2pdgUhltCbP+sz+svHZDg/QXn0qEA4nks1Tbw==}
     dependencies:
       '@material/data-table': 14.0.0
       '@material/dom': 14.0.0
-      '@smui/checkbox': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/icon-button': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/select': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/checkbox': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/icon-button': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/select': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/floating-label@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/floating-label@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-Il3ztKWBjWX3yz7pCZq9C4DpUzRZ4ewKMA6YQ5uqsWRn/crVHPCk5irSVc3chZ7jGHZ6ZvbUYn7qGTv8OlVobg==}
     dependencies:
       '@material/floating-label': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/form-field@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/form-field@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-B+8QJulCY13qiWiwLn9Fso3ZzYLCRBpq6MHE0o/4ZI0g5tI4yzyU1YNSXA3zWg6FJx7XukqOqoOA2sNCd00cjA==}
     dependencies:
       '@material/feature-targeting': 14.0.0
       '@material/form-field': 14.0.0
       '@material/rtl': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/icon-button@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/icon-button@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-QMqBoDQFcKqGYniky+VhTTp7QHH2ID7Zvdht6kGRcWC8Yb5UhcE4+yLnvKUWqz8I608bVznbL5viQfmsJbSlvA==}
     dependencies:
       '@material/density': 14.0.0
       '@material/icon-button': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/line-ripple@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/line-ripple@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-GuWd+mVY1BrLi9Y0/r+5G/EzQXiGmDGxqRTSxA4Ufa6zEhGZ8bk7tHT/WvGZL/xq87MTvJ3PWOYbLbNN3gi2mg==}
     dependencies:
       '@material/line-ripple': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/linear-progress@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/linear-progress@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-2S5QrzdeRVmepnDqVdMdjpDb+wxtxZW3CrYbfu2lnGF74QznPT1SyuTLTkY+czoTLc7Qc3nJ+gBkxga+vBbonA==}
     dependencies:
       '@material/linear-progress': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/list@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/list@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-nSpiFK5kd+yCDrG6dJR5+flYaPiI77zeWMJzmE3XGvqXrQULjTSatCIRmgFjTJYwsDKcWb8xT7Omg7T/H+IoqQ==}
     dependencies:
       '@material/dom': 14.0.0
       '@material/feature-targeting': 14.0.0
       '@material/list': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/menu-surface@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/menu-surface@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-xmSyvNCVYDGYrZdZw1TXKmbX3rZYpubxiGcPXnHEElR2zljAwg9LsHKD8ZnpzJJZrpxTpO3xCrj0ybB0yYxqLA==}
     dependencies:
       '@material/animation': 14.0.0
       '@material/menu-surface': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/menu@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/menu@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-GpfDZUqSywcNrVzWmHs63uDJiVneK+WuGqC9D6l58Uj5TsPT5fr4UGFfuWAl6685pDjD3eCwEmyFdQKi3DPXfA==}
     dependencies:
       '@material/dom': 14.0.0
       '@material/menu': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/list': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/menu-surface': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/list': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/menu-surface': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/notched-outline@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/notched-outline@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-oZ8ah/9sX+QiTyJwXhrqBkrpfjxwv53zOvyZbs6bVGFi2dp/HBzGXHuoUKgfWHtE8smC6Bd675BDpig8XN86PQ==}
     dependencies:
       '@material/notched-outline': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/floating-label': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/floating-label': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/paper@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/paper@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-NoOrlU67YUnI19V685MbSzoBV+0AQj2Swj5U6VQIYqW7JRVOk09BQAj45pPXAYWGQUCzzkeXzwD+V5O9J8+PVQ==}
     dependencies:
       '@material/elevation': 14.0.0
@@ -2179,38 +2176,38 @@ packages:
       '@material/shape': 14.0.0
       '@material/theme': 14.0.0
       '@material/typography': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/ripple@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/ripple@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-f762Wi8ESc6rRDhsmm2WUtEjAmaUB3BlYwMJ9kgOODxIxdk4kaoflUzgJemeLwohsnGfvP+o0cGxR8DM9BE3nA==}
     dependencies:
       '@material/dom': 14.0.0
       '@material/ripple': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/ripple@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/ripple@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-N21ONk6cFMAkKfLjPDMyEKNvcAzklxpJ/TXIWQBUJxRQJZcjhPLLq9y5RpqVF+0DiIFHXm/hQJv98psPtJqHIw==}
     dependencies:
       '@material/dom': 14.0.0
       '@material/ripple': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/select@7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/select@7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-LB7KiOQT92j6IJAuwHIlaF7G3beLPOUqPsNB/FFN8JKpQSnjx7w7PjLvcgSLlfxkxX38XfNE1dwH8KUp4JKOhA==}
     dependencies:
       '@material/feature-targeting': 14.0.0
@@ -2218,64 +2215,64 @@ packages:
       '@material/rtl': 14.0.0
       '@material/select': 14.0.0
       '@material/theme': 14.0.0
-      '@smui/common': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/floating-label': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/line-ripple': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/list': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/menu': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/menu-surface': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/notched-outline': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.9(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/floating-label': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/line-ripple': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/list': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/menu': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/menu-surface': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/notched-outline': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.9(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@smui/switch@7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3):
+  /@smui/switch@7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-+S1hh5v9u5sGkl39WormaUrIndPpnYB0v9NCxIg/XVAEn39hryCI9OFXlHq2zyfLiVtjAoWO09l+SnNV78tHyA==}
     dependencies:
       '@material/feature-targeting': 14.0.0
       '@material/switch': 14.0.0
       '@material/theme': 14.0.0
-      '@smui/common': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      '@smui/ripple': 7.0.0-beta.8(svelte@3.59.1)(typescript@5.1.3)
-      svelte2tsx: 0.6.16(svelte@3.59.1)(typescript@5.1.3)
+      '@smui/common': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      '@smui/ripple': 7.0.0-beta.8(svelte@4.0.0-next.3)(typescript@5.1.3)
+      svelte2tsx: 0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3)
     transitivePeerDependencies:
       - svelte
       - typescript
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector@1.0.2(@sveltejs/vite-plugin-svelte@2.4.1)(svelte@3.59.1)(vite@4.3.9):
-    resolution: {integrity: sha512-Cy1dUMcYCnDVV/hPLXa43YZJ2jGKVW5rA0xuNL9dlmYhT0yoS1g7+FOFSRlgk0BXKk/Oc7grs+8BVA5Iz2fr8A==}
+  /@sveltejs/vite-plugin-svelte-inspector@1.0.3(@sveltejs/vite-plugin-svelte@2.4.1)(svelte@4.0.0-next.3)(vite@4.3.9):
+    resolution: {integrity: sha512-Khdl5jmmPN6SUsVuqSXatKpQTMIifoQPDanaxC84m9JxIibWvSABJyHpyys0Z+1yYrxY5TTEQm+6elh0XCMaOA==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       '@sveltejs/vite-plugin-svelte': ^2.2.0
-      svelte: ^3.54.0 || ^4.0.0-next.0
+      svelte: ^3.54.0 || ^4.0.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.4.1(svelte@3.59.1)(vite@4.3.9)
+      '@sveltejs/vite-plugin-svelte': 2.4.1(svelte@4.0.0-next.3)(vite@4.3.9)
       debug: 4.3.4
-      svelte: 3.59.1
+      svelte: 4.0.0-next.3
       vite: 4.3.9(@types/node@20.3.1)(sass@1.62.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte@2.4.1(svelte@3.59.1)(vite@4.3.9):
+  /@sveltejs/vite-plugin-svelte@2.4.1(svelte@4.0.0-next.3)(vite@4.3.9):
     resolution: {integrity: sha512-bNNKvoRY89ptY7udeBSCmTdCVwkjmMcZ0j/z9J5MuedT8jPjq0zrknAo/jF1sToAza4NVaAgR9AkZoD9oJJmnA==}
     engines: {node: ^14.18.0 || >= 16}
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0-next.0
       vite: ^4.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 1.0.2(@sveltejs/vite-plugin-svelte@2.4.1)(svelte@3.59.1)(vite@4.3.9)
+      '@sveltejs/vite-plugin-svelte-inspector': 1.0.3(@sveltejs/vite-plugin-svelte@2.4.1)(svelte@4.0.0-next.3)(vite@4.3.9)
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.0
-      svelte: 3.59.1
-      svelte-hmr: 0.15.2(svelte@3.59.1)
+      svelte: 4.0.0-next.3
+      svelte-hmr: 0.15.2(svelte@4.0.0-next.3)
       vite: 4.3.9(@types/node@20.3.1)(sass@1.62.1)
       vitefu: 0.2.4(vite@4.3.9)
     transitivePeerDependencies:
@@ -2493,7 +2490,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.5.2
+      semver: 7.5.3
       tsutils: 3.21.0(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
@@ -3311,8 +3308,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001506
-      electron-to-chromium: 1.4.437
+      caniuse-lite: 1.0.30001507
+      electron-to-chromium: 1.4.439
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: true
@@ -3423,8 +3420,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite@1.0.30001506:
-    resolution: {integrity: sha512-6XNEcpygZMCKaufIcgpQNZNf00GEqc7VQON+9Rd0K1bMYo8xhMZRAo5zpbnbMNizi4YNgIDAFrdykWsvY3H4Hw==}
+  /caniuse-lite@1.0.30001507:
+    resolution: {integrity: sha512-SFpUDoSLCaE5XYL2jfqe9ova/pbQHEmbheDf5r4diNwbAgR3qxM9NQtfsiSscjqoya5K7kFcHPUQ+VsUkIJR4A==}
     dev: true
 
   /cardinal@2.1.1:
@@ -3643,6 +3640,16 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /code-red@1.0.3:
+    resolution: {integrity: sha512-kVwJELqiILQyG5aeuyKFbdsI1fmQy1Cmf7dQ8eGmVuJoaRVdwey7WaMknr2ZFeVSYSKT0rExsa8EGw0aoI/1QQ==}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@types/estree': 1.0.1
+      acorn: 8.9.0
+      estree-walker: 3.0.3
+      periscopic: 3.1.0
+    dev: true
+
   /color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
@@ -3745,7 +3752,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.5.2
+      semver: 7.5.3
       well-known-symbols: 2.0.0
     dev: true
 
@@ -4183,7 +4190,7 @@ packages:
       postcss-modules-scope: 3.0.0(postcss@8.4.24)
       postcss-modules-values: 4.0.0(postcss@8.4.24)
       postcss-value-parser: 4.2.0
-      semver: 7.5.2
+      semver: 7.5.3
       webpack: 5.88.0(webpack-cli@4.10.0)
     dev: true
 
@@ -4194,6 +4201,14 @@ packages:
       mdn-data: 2.0.14
       source-map: 0.6.1
     dev: false
+
+  /css-tree@2.3.1:
+    resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==}
+    engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
+    dependencies:
+      mdn-data: 2.0.30
+      source-map-js: 1.0.2
+    dev: true
 
   /css-unit-converter@1.1.2:
     resolution: {integrity: sha512-IiJwMC8rdZE0+xiEZHeru6YoONC4rfPMqGm2W85jMIbkFvv5nFTwJVFHam2eFrN6txmoUYFAFXiv8ICVeTO0MA==}
@@ -4516,8 +4531,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /electron-to-chromium@1.4.437:
-    resolution: {integrity: sha512-ZFekRuBOHUXp21wrR5lshT6pZa/KmjkhKBAtmZz4NN5sCWlHOk3kdhiwFINrDBsRLX6FjyBAb1TRN+KBeNlyzQ==}
+  /electron-to-chromium@1.4.439:
+    resolution: {integrity: sha512-BHpErPSNhb9FB25+OwQP6mCAf3ZXfGbmuvc4LzBNVJwpCcXQJm++LerimocYRG9FRxUVRKZqaB7d0+pImSTPSg==}
     dev: true
 
   /email-validator@2.0.4:
@@ -5007,7 +5022,7 @@ packages:
       optionator: 0.9.1
       progress: 2.0.3
       regexpp: 3.2.0
-      semver: 7.5.2
+      semver: 7.5.3
       strip-ansi: 6.0.1
       strip-json-comments: 3.1.1
       table: 6.8.1
@@ -5060,6 +5075,12 @@ packages:
   /estraverse@5.3.0:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
+    dev: true
+
+  /estree-walker@3.0.3:
+    resolution: {integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==}
+    dependencies:
+      '@types/estree': 1.0.1
     dev: true
 
   /esutils@2.0.3:
@@ -5280,7 +5301,7 @@ packages:
       minimatch: 3.1.2
       node-abort-controller: 3.1.1
       schema-utils: 3.3.0
-      semver: 7.5.2
+      semver: 7.5.3
       tapable: 2.2.1
       typescript: 5.1.3
       webpack: 5.88.0(webpack-cli@4.10.0)
@@ -5550,7 +5571,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.0.4
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -5858,7 +5879,7 @@ packages:
   /ignore-walk@3.0.4:
     resolution: {integrity: sha512-PY6Ii8o1jMRA1z4F2hRkH/xN59ox43DavKvD3oDpfurRlOJyAHpifIwpbdv1n4jt4ov0jSpw3kQ4GhJnpBL6WQ==}
     dependencies:
-      minimatch: 3.1.2
+      minimatch: 3.0.5
     dev: true
 
   /ignore@4.0.6:
@@ -6155,6 +6176,12 @@ packages:
       isobject: 3.0.1
     dev: true
 
+  /is-reference@3.0.1:
+    resolution: {integrity: sha512-baJJdQLiYaJdvFbJqXrcGv3WU3QCzBlUcI5QhbesIm6/xPsvmO+2CDoi/GMOFBQEQm+PXkwOPrp9KK5ozZsp2w==}
+    dependencies:
+      '@types/estree': 1.0.1
+    dev: true
+
   /is-regex@1.1.4:
     resolution: {integrity: sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==}
     engines: {node: '>= 0.4'}
@@ -6298,7 +6325,7 @@ packages:
     resolution: {integrity: sha512-m0NvkX55LDt9T4mctTEgnZk3fmEg3NRYutvMPWM/0iPnkFj2wIeF45O1718cMSOFO1vINkqmxqD8vE37uTEbqw==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     dependencies:
-      chalk: 4.1.2
+      chalk: 4.1.0
       diff-sequences: 27.5.1
       jest-get-type: 27.5.1
       pretty-format: 27.5.1
@@ -6603,6 +6630,10 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /locate-character@3.0.0:
+    resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
+    dev: true
+
   /locate-path@2.0.0:
     resolution: {integrity: sha512-NCI2kiDkyR7VeEKm27Kda/iQHyKJe1Bu0FlTbYp3CqJu+9IFe9bLyAjMxf5ZDDbEg+iMPzB5zYyUTSm8wVTKmA==}
     engines: {node: '>=4'}
@@ -6809,6 +6840,10 @@ packages:
   /mdn-data@2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
     dev: false
+
+  /mdn-data@2.0.30:
+    resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
+    dev: true
 
   /memfs@3.5.3:
     resolution: {integrity: sha512-UERzLsxzllchadvbPs5aolHh65ISpKpM+ccLbOJ8/vvpBKmAWf+la7dXFy7Mr0ySHbdHrFv5kGFCUHHe6GFEmw==}
@@ -7073,7 +7108,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.1.2
+      minimatch: 3.0.5
     dev: true
 
   /mute-stream@0.0.8:
@@ -7863,6 +7898,14 @@ packages:
     resolution: {integrity: sha512-7EAHlyLHI56VEIdK57uwHdHKIaAGbnXPiw0yWbarQZOKaKpvUIgW0jWRVLiatnM+XXlSwsanIBH/hzGMJulMow==}
     dev: true
 
+  /periscopic@3.1.0:
+    resolution: {integrity: sha512-vKiQ8RRtkl9P+r/+oefh25C3fhybptkHKCZSPlcXiJux2tJF55GnEj3BVn4A5gKfq9NWWXXrxkHBwVPUfH0opw==}
+    dependencies:
+      '@types/estree': 1.0.1
+      estree-walker: 3.0.3
+      is-reference: 3.0.1
+    dev: true
+
   /phin@2.9.3:
     resolution: {integrity: sha512-CzFr90qM24ju5f88quFC/6qohjC144rehe5n6DH900lgXmUe86+xCKc10ev56gRKC4/BkHUoG4uSiQgBiIXwDA==}
     dev: true
@@ -7983,7 +8026,7 @@ packages:
       cosmiconfig: 8.2.0
       jiti: 1.18.2
       postcss: 8.4.24
-      semver: 7.5.2
+      semver: 7.5.3
       webpack: 5.88.0(webpack-cli@4.10.0)
     dev: true
 
@@ -8207,7 +8250,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-    bundledDependencies: []
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
@@ -8746,8 +8788,8 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /semver@7.5.2:
-    resolution: {integrity: sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==}
+  /semver@7.5.3:
+    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -9274,17 +9316,17 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-chartjs@3.1.2(chart.js@4.3.0)(svelte@3.59.1):
+  /svelte-chartjs@3.1.2(chart.js@4.3.0)(svelte@4.0.0-next.3):
     resolution: {integrity: sha512-3+6gY2IJ9Ua8R9pk3iS1ypa7Z9OoXCJb9oPwIfTp7caJM+X+RrWnH2CTkGAq7FeSxc2nnmW08tYN88Q8Y+5M+w==}
     peerDependencies:
       chart.js: ^3.5.0 || ^4.0.0
       svelte: ^3.45.0
     dependencies:
       chart.js: 4.3.0
-      svelte: 3.59.1
+      svelte: 4.0.0-next.3
     dev: true
 
-  /svelte-check@3.4.3(sass@1.62.1)(svelte@3.59.1):
+  /svelte-check@3.4.3(sass@1.62.1)(svelte@4.0.0-next.3):
     resolution: {integrity: sha512-O07soQFY3X0VDt+bcGc6D5naz0cLtjwnmNP9JsEBPVyMemFEqUhL2OdLqvkl5H/u8Jwm50EiAU4BPRn5iin/kg==}
     hasBin: true
     peerDependencies:
@@ -9296,8 +9338,8 @@ packages:
       import-fresh: 3.3.0
       picocolors: 1.0.0
       sade: 1.8.1
-      svelte: 3.59.1
-      svelte-preprocess: 5.0.4(sass@1.62.1)(svelte@3.59.1)(typescript@5.1.3)
+      svelte: 4.0.0-next.3
+      svelte-preprocess: 5.0.4(sass@1.62.1)(svelte@4.0.0-next.3)(typescript@5.1.3)
       typescript: 5.1.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -9324,13 +9366,13 @@ packages:
       svelte: 3.44.3
     dev: true
 
-  /svelte-hmr@0.15.2(svelte@3.59.1):
+  /svelte-hmr@0.15.2(svelte@4.0.0-next.3):
     resolution: {integrity: sha512-q/bAruCvFLwvNbeE1x3n37TYFb3mTBJ6TrCq6p2CoFbSTNhDE9oAtEfpy+wmc9So8AG0Tja+X0/mJzX9tSfvIg==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0-next.0
     dependencies:
-      svelte: 3.59.1
+      svelte: 4.0.0-next.3
     dev: true
 
   /svelte-loader@3.1.8(svelte@3.44.3):
@@ -9352,13 +9394,13 @@ packages:
       svelte: 3.44.3
     dev: true
 
-  /svelte-native@1.0.0(@nativescript/core@8.5.0)(svelte@3.44.3):
-    resolution: {integrity: sha512-aI5nAxJ3Qleqd61hQjUhA3zE6midsCamXtNKmyz94h0FrBhg33v6p8PPu+4NYBFuFwSBWu2U2oAd2J6sQW8StQ==}
+  /svelte-native@1.0.6(@nativescript/core@8.5.6)(svelte@3.44.3):
+    resolution: {integrity: sha512-clhhhJC9OfryQlNrCGm0V0RuLy23nmCzefj9OqWAxcwkyVvPAfar7bJd+obgbikTnpv7uvKkBlrsDDVqeistfg==}
     peerDependencies:
       '@nativescript/core': ~8.1.3
       svelte: ~3.44.0
     dependencies:
-      '@nativescript/core': 8.5.0
+      '@nativescript/core': 8.5.6
       svelte: 3.44.3
     dev: false
 
@@ -9411,7 +9453,7 @@ packages:
       typescript: 5.1.3
     dev: true
 
-  /svelte-preprocess@5.0.4(sass@1.62.1)(svelte@3.59.1)(typescript@5.1.3):
+  /svelte-preprocess@5.0.4(sass@1.62.1)(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -9455,11 +9497,11 @@ packages:
       sass: 1.62.1
       sorcery: 0.11.0
       strip-indent: 3.0.0
-      svelte: 3.59.1
+      svelte: 4.0.0-next.3
       typescript: 5.1.3
     dev: true
 
-  /svelte2tsx@0.6.16(svelte@3.59.1)(typescript@5.1.3):
+  /svelte2tsx@0.6.16(svelte@4.0.0-next.3)(typescript@5.1.3):
     resolution: {integrity: sha512-AX2iYEvQdd4tq5BokRdOOA0N/nD37ZnhXAomrAG9EEGl2cjkvoQUwe1Aluo6FSzA684WJjhxW+1ZXmveCmvDrA==}
     peerDependencies:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0
@@ -9467,7 +9509,7 @@ packages:
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 3.59.1
+      svelte: 4.0.0-next.3
       typescript: 5.1.3
     dev: true
 
@@ -9475,9 +9517,42 @@ packages:
     resolution: {integrity: sha512-aGgrNCip5PQFNfq9e9tmm7EYxWLVHoFsEsmKrtOeRD8dmoGDdyTQ+21xd7qgFd8MNdKGSYvg7F9dr+Tc0yDymg==}
     engines: {node: '>= 8'}
 
-  /svelte@3.59.1:
-    resolution: {integrity: sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==}
-    engines: {node: '>= 8'}
+  /svelte@4.0.0:
+    resolution: {integrity: sha512-+yCYu3AEUu9n91dnQNGIbnVp8EmNQtuF/YImW4+FTXRHard7NMo+yTsWzggPAbj3fUEJ1FBJLkql/jkp6YB5pg==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@ampproject/remapping': 2.2.1
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/trace-mapping': 0.3.18
+      acorn: 8.9.0
+      aria-query: 5.2.1
+      axobject-query: 3.2.1
+      code-red: 1.0.3
+      css-tree: 2.3.1
+      estree-walker: 3.0.3
+      is-reference: 3.0.1
+      locate-character: 3.0.0
+      magic-string: 0.30.0
+      periscopic: 3.1.0
+    dev: true
+
+  /svelte@4.0.0-next.3:
+    resolution: {integrity: sha512-NogP/EuGk+xCzqye8hoj/Wz1OoTCTp1yQpsfAIkATlYct2xqoQADB1UjPLm/plQjhGQrZcODW2MHCiYsDTQWtA==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@ampproject/remapping': 2.2.1
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/trace-mapping': 0.3.18
+      acorn: 8.9.0
+      aria-query: 5.2.1
+      axobject-query: 3.2.1
+      code-red: 1.0.3
+      css-tree: 2.3.1
+      estree-walker: 3.0.3
+      is-reference: 3.0.1
+      locate-character: 3.0.0
+      magic-string: 0.30.0
+      periscopic: 3.1.0
     dev: true
 
   /table@6.8.1:
@@ -9722,7 +9797,7 @@ packages:
       chalk: 4.1.2
       enhanced-resolve: 5.15.0
       micromatch: 4.0.5
-      semver: 7.5.2
+      semver: 7.5.3
       typescript: 5.1.3
       webpack: 5.88.0(webpack-cli@4.10.0)
     dev: true
@@ -9807,7 +9882,7 @@ packages:
       commander: 2.20.3
       diff: 3.5.0
       glob: 7.2.3
-      minimatch: 3.1.2
+      minimatch: 3.0.4
       resolve: 1.22.2
       semver: 5.7.1
       tslib: 1.14.1
@@ -9845,65 +9920,65 @@ packages:
     engines: {node: '>=0.6.11 <=0.7.0 || >=0.7.3'}
     dev: true
 
-  /turbo-darwin-64@1.10.3:
-    resolution: {integrity: sha512-IIB9IomJGyD3EdpSscm7Ip1xVWtYb7D0x7oH3vad3gjFcjHJzDz9xZ/iw/qItFEW+wGFcLSRPd+1BNnuLM8AsA==}
+  /turbo-darwin-64@1.10.4:
+    resolution: {integrity: sha512-oAILq0QZUvOxYZU71SXRsL7DFpqZutPl9CX7+rD48tReHrmhcm3HMeuAFY0S5FD/9fKub04UfAQwVtJSlhvISg==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.10.3:
-    resolution: {integrity: sha512-SBNmOZU9YEB0eyNIxeeQ+Wi0Ufd+nprEVp41rgUSRXEIpXjsDjyBnKnF+sQQj3+FLb4yyi/yZQckB+55qXWEsw==}
+  /turbo-darwin-arm64@1.10.4:
+    resolution: {integrity: sha512-N0XPFLXsZRLE6gKDa5MREpPQp0drOz9PrADaaMXTlspxWS/tmmxyH+ZQ/uGqKC/0mqsNIhZuSFsEVZe1PGaqxw==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.10.3:
-    resolution: {integrity: sha512-kvAisGKE7xHJdyMxZLvg53zvHxjqPK1UVj4757PQqtx9dnjYHSc8epmivE6niPgDHon5YqImzArCjVZJYpIGHQ==}
+  /turbo-linux-64@1.10.4:
+    resolution: {integrity: sha512-S8ZVNCPnrBU+GMKKUWcgg4MaTOdL1reOU1XQtDiHfEPskXjLE+10vr65xJJQb6CqO8ARFXUlFSAUfxZRX6WVNA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.10.3:
-    resolution: {integrity: sha512-Qgaqln0IYRgyL0SowJOi+PNxejv1I2xhzXOI+D+z4YHbgSx87ox1IsALYBlK8VRVYY8VCXl+PN12r1ioV09j7A==}
+  /turbo-linux-arm64@1.10.4:
+    resolution: {integrity: sha512-/C6vpo7kd2ae6dR0iZyRuvfjijuixidhwLzV026A+/1gmAMRXYkslBfgOGfoOquHmvqjCeDVTsMWwCY2NRQqtw==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.10.3:
-    resolution: {integrity: sha512-rbH9wManURNN8mBnN/ZdkpUuTvyVVEMiUwFUX4GVE5qmV15iHtZfDLUSGGCP2UFBazHcpNHG1OJzgc55GFFrUw==}
+  /turbo-windows-64@1.10.4:
+    resolution: {integrity: sha512-fh6X/fJl9gNTu3r7zMmwCychxMlpQMFn32bpioPNIBxrTHCbQYeGSQuw2XWa/RswgNzCY3Xo34emYAKu9btrsw==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.10.3:
-    resolution: {integrity: sha512-ThlkqxhcGZX39CaTjsHqJnqVe+WImjX13pmjnpChz6q5HHbeRxaJSFzgrHIOt0sUUVx90W/WrNRyoIt/aafniw==}
+  /turbo-windows-arm64@1.10.4:
+    resolution: {integrity: sha512-KzcKGl+bjwaSkxMNTutuoIM+xPuTBA13zJiC2vFM7fQ6XYM0/ZmUekfoxpMnWgSav8vlTk5tRYaPniLcVzLnTQ==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo@1.10.3:
-    resolution: {integrity: sha512-U4gKCWcKgLcCjQd4Pl8KJdfEKumpyWbzRu75A6FCj6Ctea1PIm58W6Ltw1QXKqHrl2pF9e1raAskf/h6dlrPCA==}
+  /turbo@1.10.4:
+    resolution: {integrity: sha512-EVBt762wVGyZAXtp1UWQptRG2N/9TThUJ1tRawvt/pmB62VmdzgDuz80SQYXK5U5yKEID6OJdqAzq8HnIQVA6g==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.10.3
-      turbo-darwin-arm64: 1.10.3
-      turbo-linux-64: 1.10.3
-      turbo-linux-arm64: 1.10.3
-      turbo-windows-64: 1.10.3
-      turbo-windows-arm64: 1.10.3
+      turbo-darwin-64: 1.10.4
+      turbo-darwin-arm64: 1.10.4
+      turbo-linux-64: 1.10.4
+      turbo-linux-arm64: 1.10.4
+      turbo-windows-64: 1.10.4
+      turbo-windows-arm64: 1.10.4
     dev: true
 
   /tweetnacl@0.14.5:
@@ -10581,7 +10656,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 4.2.3
+      string-width: 1.0.2
     dev: true
 
   /wildcard@2.0.1:
