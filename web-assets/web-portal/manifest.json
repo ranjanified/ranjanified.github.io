@@ -1,10 +1,10 @@
 {
   "assets/images/icons/favicon.ico": {
-    "file": "assets/favicon-2b8ad2d3.ico",
+    "file": "assets/favicon-d046d020.ico",
     "src": "assets/images/icons/favicon.ico"
   },
   "index.html": {
-    "file": "assets/app-0e0ac60e.js",
+    "file": "assets/app-0932b0b8.js",
     "imports": [
       "src/bootstrapper.ts"
     ],
@@ -19,7 +19,7 @@
     "css": [
       "assets/bootstrapper-79b17667.css"
     ],
-    "file": "assets/bootstrapper-75b6e25e.js",
+    "file": "assets/bootstrapper-74fd746a.js",
     "isEntry": true,
     "src": "src/bootstrapper.ts"
   }
