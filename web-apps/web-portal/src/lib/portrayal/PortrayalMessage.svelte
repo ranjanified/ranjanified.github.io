@@ -1,5 +1,4 @@
 <script lang="ts">
-  console.log('base url:', import.meta.env.BASE_URL);
 </script>
 
 <div class="portrayal-message covered">
