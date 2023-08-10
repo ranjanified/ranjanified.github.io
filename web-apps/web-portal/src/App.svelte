@@ -1,5 +1,7 @@
 <script lang="ts">
- import { onMount } from "svelte";
+  import { onMount } from "svelte";
+ import AppLayout from "$lib/layouts/AppLayout.svelte";
+  import PortrayalMessage from "$lib/portrayal/PortrayalMessage.svelte";
 
  let mounted = false;
  onMount(() => {
@@ -10,8 +12,14 @@
  });
 </script>
 {#if mounted}
-  <div>
-    Build In Progress
-  </div>
+  <AppLayout>
+    <PortrayalMessage />
+  </AppLayout>
 {/if}
+
+<style lang="scss">
+  :global(body) {
+    margin: 0;
+  }
+</style>
 

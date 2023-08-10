@@ -4,7 +4,7 @@
     "src": "assets/images/icons/favicon.ico"
   },
   "index.html": {
-    "file": "assets/app-0932b0b8.js",
+    "file": "assets/app-38f4fa24.js",
     "imports": [
       "src/bootstrapper.ts"
     ],
@@ -12,14 +12,14 @@
     "src": "index.html"
   },
   "src/bootstrapper.css": {
-    "file": "assets/bootstrapper-79b17667.css",
+    "file": "assets/bootstrapper-b13d9b7f.css",
     "src": "src/bootstrapper.css"
   },
   "src/bootstrapper.ts": {
     "css": [
-      "assets/bootstrapper-79b17667.css"
+      "assets/bootstrapper-b13d9b7f.css"
     ],
-    "file": "assets/bootstrapper-74fd746a.js",
+    "file": "assets/bootstrapper-c99a4b5e.js",
     "isEntry": true,
     "src": "src/bootstrapper.ts"
   }

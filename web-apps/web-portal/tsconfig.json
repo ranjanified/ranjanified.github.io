@@ -15,9 +15,10 @@
     "noImplicitReturns": true,
     "skipLibCheck": true,
     "types": ["vite/client"],
+    "baseUrl": ".",
     "paths": {
       "$lib/*": ["./src/lib/*"]
     }
   },
-  "include": ["src"]
+  "include": ["./src/**/*"]
 }

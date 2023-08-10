@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
@@ -16,8 +17,13 @@ export default defineConfig({
       preserveEntrySignatures: "strict",
       input: {
         app: "./index.html",
-        bootstrapper: "./src/bootstrapper.ts"
+        bootstrapper: "./src/bootstrapper.ts",
       },
+    },
+  },
+  resolve: {
+    alias: {
+      $lib: resolve("src/lib"),
     },
   },
 });
