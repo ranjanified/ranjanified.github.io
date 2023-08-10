@@ -7,6 +7,7 @@
     "clean": "turbo run clean --parallel",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "preview": "turbo run preview",
     "deploy": "turbo run deploy",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "dev:android": "turbo run dev:android --parallel",

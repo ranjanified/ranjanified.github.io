@@ -1,14 +1,18 @@
+<script lang="ts">
+  console.log('base url:', import.meta.env.BASE_URL);
+</script>
+
 <div class="portrayal-message covered">
   <div class="picture-container">
     <img
       class="portrayal-image"
-      src="/assets/images/NalinRanjan-ProfilePic.png"
+      src="{import.meta.env.BASE_URL}/assets/images/NalinRanjan-ProfilePic.png"
       alt=""
     />
   </div>
   <div class="portrayal-title">
     <a href = "mailto: nalin39@gmail.com">Nalin Ranjan</a>
-    <p>I am about to express about myself, Here !!!</p>
+    <p>I am about to open myself up, Here !!!</p>
   </div>
 </div>
 

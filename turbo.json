@@ -9,6 +9,10 @@
       "dependsOn": ["^build"],
       "cache": false
     },
+    "preview": {
+      "dependsOn": ["^build", "build"],
+      "cache": false
+    },
     "deploy": {
       "dependsOn": ["build"]
     },

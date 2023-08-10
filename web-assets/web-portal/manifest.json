@@ -4,7 +4,7 @@
     "src": "assets/images/icons/favicon.ico"
   },
   "index.html": {
-    "file": "assets/app-38f4fa24.js",
+    "file": "assets/app-c2c06799.js",
     "imports": [
       "src/bootstrapper.ts"
     ],
@@ -19,7 +19,7 @@
     "css": [
       "assets/bootstrapper-b13d9b7f.css"
     ],
-    "file": "assets/bootstrapper-c99a4b5e.js",
+    "file": "assets/bootstrapper-e0e67e2a.js",
     "isEntry": true,
     "src": "src/bootstrapper.ts"
   }
