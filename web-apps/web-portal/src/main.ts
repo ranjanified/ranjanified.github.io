@@ -1,5 +1,6 @@
 import "./styles/app.scss";
 import App from "./App.svelte";
+import { mount } from "svelte";
 
 const doc_search_params = new URLSearchParams(location.search);
 
@@ -22,15 +23,15 @@ const instantiate =
   doc_search_params.get("_instantiate")?.toLowerCase() === "true";
 
 if (instantiate) {
-  new App({
-    target: app_target(),
-  });
+  mount(App, {
+        target: app_target(),
+      });
 }
 
 const create_app = (target_selector: string = "") => {
-  new App({
-    target: app_target(target_selector),
-  });
+  mount(App, {
+        target: app_target(target_selector),
+      });
 };
 
 export { create_app };

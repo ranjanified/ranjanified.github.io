@@ -3,7 +3,7 @@
  import AppLayout from "$lib/layouts/AppLayout.svelte";
   import PortrayalMessage from "$lib/portrayal/PortrayalMessage.svelte";
 
- let mounted = false;
+ let mounted = $state(false);
  onMount(() => {
    setTimeout(() => {
      dispatchEvent(new CustomEvent("ranjanified:app:loaded"));
